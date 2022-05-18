@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  max-width: 1440px;
+  height: 100%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+  color: #1f5490;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  margin-top: 165px;
+  margin-bottom: 110px;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+p {
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 150px 500px 150px;
+  grid-template-rows: 1fr;
+  grid-column-gap: 110px;
+  grid-row-gap: 20px;
+  justify-content: center;
+  align-items: start;
+}
+
+.cardsfield {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  justify-items: center;
+  align-items: stretch;
+  gap: 14px;
+  width: 500px;
+  height: 500px;
+  perspective: 100%;
+}
+
+.attempts {
+  text-align: center;
+  width: 150px;
+}
+
+.attempts span {
+  color: #f53;
+  display: block;
+}
+
+.attempts p {
+  margin-top: 0;
+}
+
+.chanses {
+  text-align: center;
+  width: 150px;
+}
+
+.chanses span {
+  color: #ee0000;
+  display: block;
+}
+
+.chanses p {
+  margin-top: 0;
+}
+
+.for_modal {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  place-items: center;
+  background: transparent;
+}
+
+.modal {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 685px;
+  height: 371px;
+  background-color: #1c1e85;
+  border-radius: 12px;
+  padding-top: 56px;
+  outline: 0;
+}
+
+.modal .phrase {
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 130px;
+}
+
+.modal p {
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.modal button {
+  position: absolute;
+  margin: 0;
+  top: 82%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 340px;
+  height: 64px;
+  color: #fff;
+  background-color: #ee0000;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  font-weight: 700;
+  border-radius: 12px;
+  border: none;
+}
