@@ -1,5 +1,7 @@
 # Memo game project
-50 shades of pepe sadness
+*50 shades of pepe sadness*
 
-React + Ts
-Сборка- webpack. 
+
+Небольшая игра на запоминание карточек. 
+
+React + Ts. Сборка- webpack. 
